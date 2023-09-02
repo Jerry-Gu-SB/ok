@@ -6,13 +6,13 @@ FRENCHY = False
 pygame.mixer.init()
 pygame.mixer.set_num_channels(100)
 
-q_audio = "Rammus OK..wav"
-w_audio = "Mhm.ogg"
-e_audio = "Yep.ogg"
-r_audio = "Alright.ogg"
-f_audio = "what the fuck.ogg"
-d_audio = "HM.ogg"
-tab_audio = "Right.ogg"
+q_audio = r"audio_files\Rammus OK..wav"
+w_audio = r"audio_files\Mhm.ogg"
+e_audio = r"audio_files\Yep.ogg"
+r_audio = r"audio_files\Alright.ogg"
+f_audio = r"audio_files\what the fuck.ogg"
+d_audio = r"audio_files\HM.ogg"
+tab_audio = r"audio_files\Right.ogg"
 
 
 def play_audio(audio_file):
@@ -26,20 +26,20 @@ def FRENCH():
     play_audio(f_audio)
     if FRENCHY:
         FRENCHY = False
-        q_audio = "Rammus OK..wav"
-        w_audio = "Mhm.ogg"
-        e_audio = "Yep.ogg"
-        r_audio = "Alright.ogg"
-        d_audio = "HM.ogg"
-        tab_audio = "Right.ogg"
+        q_audio = r"audio_files\Rammus OK..wav"
+        w_audio = r"audio_files\Mhm.ogg"
+        e_audio = r"audio_files\Yep.ogg"
+        r_audio = r"audio_files\Alright.ogg"
+        d_audio = r"audio_files\HM.ogg"
+        tab_audio = r"audio_files\Right.ogg"
     else:
         FRENCHY = True
-        q_audio = "OUIIIIIIII.ogg"
-        w_audio = "SAAAAAAAA UUUUUURGH.ogg"
-        e_audio = "OOOOOOOOHHHHHHHHHHH.ogg"
-        r_audio = "HMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.ogg"
-        d_audio = "WOOA PUP.ogg"
-        tab_audio = "EHHHHH.ogg"
+        q_audio = r"audio_files\OUIIIIIIII.ogg"
+        w_audio = r"audio_files\SAAAAAAAA UUUUUURGH.ogg"
+        e_audio = r"audio_files\OOOOOOOOHHHHHHHHHHH.ogg"
+        r_audio = r"audio_files\HMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.ogg"
+        d_audio = r"audio_files\WOOA PUP.ogg"
+        tab_audio = r"audio_files\EHHHHH.ogg"
 
 
 keyboard.add_hotkey('q', lambda: play_audio(q_audio))
