@@ -8,7 +8,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[(r'C:\Users\jerry\PycharmProjects\Ok', 'audio_files')],
+    datas=[(r'C:\Users\jerry\PycharmProjects\Ok\audio_files', 'audio_files')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

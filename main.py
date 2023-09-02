@@ -26,20 +26,20 @@ def FRENCH():
     play_audio(f_audio)
     if FRENCHY:
         FRENCHY = False
-        q_audio = r"ok\audio_files\Rammus OK..wav"
-        w_audio = r"ok\audio_files\Mhm.ogg"
-        e_audio = r"ok\audio_files\Yep.ogg"
-        r_audio = r"ok\audio_files\Alright.ogg"
-        d_audio = r"ok\audio_files\HM.ogg"
-        tab_audio = r"ok\audio_files\Right.ogg"
+        q_audio = r"audio_files\Rammus OK..wav"
+        w_audio = r"audio_files\Mhm.ogg"
+        e_audio = r"audio_files\Yep.ogg"
+        r_audio = r"audio_files\Alright.ogg"
+        d_audio = r"audio_files\HM.ogg"
+        tab_audio = r"audio_files\Right.ogg"
     else:
         FRENCHY = True
-        q_audio = r"ok\audio_files\OUIIIIIIII.ogg"
-        w_audio = r"ok\audio_files\SAAAAAAAA UUUUUURGH.ogg"
-        e_audio = r"ok\audio_files\OOOOOOOOHHHHHHHHHHH.ogg"
-        r_audio = r"ok\audio_files\HMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.ogg"
-        d_audio = r"ok\audio_files\WOOA PUP.ogg"
-        tab_audio = r"ok\audio_files\EHHHHH.ogg"
+        q_audio = r"audio_files\OUIIIIIIII.ogg"
+        w_audio = r"audio_files\SAAAAAAAA UUUUUURGH.ogg"
+        e_audio = r"audio_files\OOOOOOOOHHHHHHHHHHH.ogg"
+        r_audio = r"audio_files\HMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.ogg"
+        d_audio = r"audio_files\WOOA PUP.ogg"
+        tab_audio = r"audio_files\EHHHHH.ogg"
 
 
 keyboard.add_hotkey('q', lambda: play_audio(q_audio))
