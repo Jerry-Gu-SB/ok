@@ -6,13 +6,13 @@ FRENCHY = False
 pygame.mixer.init()
 pygame.mixer.set_num_channels(100)
 
-q_audio = r"ok\audio_files\Rammus OK..wav"
-w_audio = r"ok\audio_files\Mhm.ogg"
-e_audio = r"ok\audio_files\Yep.ogg"
-r_audio = r"ok\audio_files\Alright.ogg"
-f_audio = r"ok\audio_files\what the fuck.ogg"
-d_audio = r"ok\audio_files\HM.ogg"
-tab_audio = r"ok\audio_files\Right.ogg"
+q_audio = r"audio_files\Rammus OK..wav"
+w_audio = r"audio_files\Mhm.ogg"
+e_audio = r"audio_files\Yep.ogg"
+r_audio = r"audio_files\Alright.ogg"
+f_audio = r"audio_files\what the fuck.ogg"
+d_audio = r"audio_files\HM.ogg"
+tab_audio = r"audio_files\Right.ogg"
 
 
 def play_audio(audio_file):
