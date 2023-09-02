@@ -29,12 +29,14 @@ def FRENCH():
         w_audio = "Mhm.ogg"
         e_audio = "Yep.ogg"
         r_audio = "Alright.ogg"
+        d_audio = "HM.ogg"
     else:
         FRENCHY = True
         q_audio = "OUIIIIIIII.ogg"
         w_audio = "SAAAAAAAA UUUUUURGH.ogg"
         e_audio = "OOOOOOOOHHHHHHHHHHH.ogg"
         r_audio = "HMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.ogg"
+        d_audio = ""
 
 
 keyboard.add_hotkey('q', lambda : play_audio(q_audio))
